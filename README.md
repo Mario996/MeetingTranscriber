@@ -1,2 +1,8 @@
 # MeetingTranscriber
-Desktop application for recording voice meetings that generates text version of the meeting and uploads it to cloud storage.
+Used .NET WPF to develop desktop application, .NET Core Web API used for backend needs.
+
+MeetingTranscriber utilizes following AWS servies:
+  -Amazon Transcribe
+  -S3 bucket
+
+Instructions on how to start the project can be found in the HowToStart.txt
