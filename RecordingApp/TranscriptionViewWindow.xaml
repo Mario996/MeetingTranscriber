@@ -1,0 +1,34 @@
+﻿<Window x:Class="RecordingApp.TranscriptionViewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RecordingApp"
+        mc:Ignorable="d"
+        Background="Orange"
+        Title="TranscriptionViewWindow" Height="460.345" Width="550">
+    <Window.Resources>
+        <Style TargetType="{x:Type Label}">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="IsReadOnly" Value="True"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Label Content="TranscriptionARN:" HorizontalAlignment="Left" Height="31" Margin="0,8,0,0" VerticalAlignment="Top" Width="141"/>
+        <Label Content="Date of meeting:" HorizontalAlignment="Left" Height="31" Margin="0,39,0,0" VerticalAlignment="Top" Width="141"/>
+        <Label Content="Meeting platform:" HorizontalAlignment="Left" Height="31" Margin="0,70,0,0" VerticalAlignment="Top" Width="141"/>
+        <Label Content="Meeting participants:" HorizontalAlignment="Left" Height="38" Margin="0,95,0,0" VerticalAlignment="Top" Width="141"/>
+        <Label Content="Transcription text:" HorizontalAlignment="Left" Height="35" Margin="208,131,0,0" VerticalAlignment="Top" Width="127" RenderTransformOrigin="0.5,0.5"/>
+        <TextBox Name="TranscriptionARNTextBox" HorizontalAlignment="Left" Height="26" Margin="141,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="294"/>
+        <TextBox Name="DateOfMeetingTextBox" HorizontalAlignment="Left" Height="26" Margin="141,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="294"/>
+        <TextBox Name="MeetingPlatformTextBox" HorizontalAlignment="Left" Height="26" Margin="141,71,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="294"/>
+        <TextBox Name="MeetingParticipantsTextBox" HorizontalAlignment="Left" Height="26" Margin="141,101,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="294"/>
+        <TextBox Name="TranscriptionTextTextBox" HorizontalAlignment="Left" Height="244" Margin="8,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="519"/>
+        <Image Source="/Images/conti.png" HorizontalAlignment="Left" Height="89" Margin="442,27,0,0" VerticalAlignment="Top" Width="98"/>
+    </Grid>
+</Window>

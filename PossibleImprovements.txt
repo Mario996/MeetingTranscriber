@@ -1,0 +1,4 @@
+1. Implementirati login na strani WPF clienta, tako da user koji snima razgovor na svom racunaru ne mora da dodaje sebe u listu ucesnika sastanka (izbaciti UserIPAddress iz transcription klase)
+2. Implementirati web client koji ce omogucavati izlistavanje svih transkripcija (korisnik vidi samo one na kojima je ucestvovao, admin vidi sve). Detaljan opis sta web client treba da sadrzi imam u svesci 
+3. Implementirati text pretragu (Mora postojati dobra tekst pretraga da bi nasli sastanake po delovima izgovorenih reci.)
+4. Detaljno istestirati aplikaciju

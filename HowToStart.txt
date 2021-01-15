@@ -1,0 +1,8 @@
+1) Proveriti da li na AWS-u postoji S3 bucket pod nazivom "meeting2textbucket", ako ne postoji onda ga napraviti, ako je ime zauzeto onda promeniti ime bucketa u konfiguracionim fajlovima u projektu
+2) Podesiti adfs-cli
+	-otvoriti CMD u folderu gde se nalazi adfs-cli-win.exe
+	-ukucati set https_proxy=http://ep.threatpulse.net:80
+	-pokrenuti adfs-cli-win.exe
+	-pratiti uputstva na ekranu
+
+3) Pokrenuti Visual Studio u Administrator modu
